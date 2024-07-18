@@ -69,7 +69,39 @@ namespace C42_G02_OOP04
             //flyableplan.Forward();
             #endregion
 
-            #region
+            #region V4
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = new int[3];
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+            //Arr02 = Arr01;
+            //Console.WriteLine("After shallow copy");
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+            
+            //Console.WriteLine(Arr01[0]);
+            //Console.WriteLine(Arr02[0]);
+
+            //Arr02[0] = 100;
+
+            //Console.WriteLine("After  Arr02[0] = 100;");
+
+            //Console.WriteLine(Arr01[0]);
+            //Console.WriteLine(Arr02[0]);
+
+
+            //Arr02 = (int[]) Arr01.Clone();
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+
+            //Console.WriteLine(Arr01[0]);
+            //Console.WriteLine(Arr02[0]);
+
+            //Arr01[0] = 100;
+
+            //Console.WriteLine("After  Arr01[0] = 100;");
+            //Console.WriteLine(Arr01[0]);
+            //Console.WriteLine(Arr02[0]);
             #endregion
 
             #region
