@@ -78,7 +78,7 @@ namespace C42_G02_OOP04
             //Console.WriteLine("After shallow copy");
             //Console.WriteLine(Arr01.GetHashCode());
             //Console.WriteLine(Arr02.GetHashCode());
-            
+
             //Console.WriteLine(Arr01[0]);
             //Console.WriteLine(Arr02[0]);
 
@@ -104,7 +104,31 @@ namespace C42_G02_OOP04
             //Console.WriteLine(Arr02[0]);
             #endregion
 
-            #region
+            #region V5
+            //string[] names1 = { "ali" };
+            //string[] names2 = new string[1];
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
+            //names2 = names1;
+            //Console.WriteLine("After shallow copy");
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+            //names2[0] = "aya";
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+            ////Deepcopy
+            //names2 = (string[]) names1.Clone();
+            //Console.WriteLine("After shallow copy");
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+            //names2[0] = "aya";
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+
             #endregion
 
             #region
