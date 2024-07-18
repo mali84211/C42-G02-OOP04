@@ -16,15 +16,28 @@ namespace C42_G02_OOP04
     //    }
 
     //}
-    internal class MyType : IMyType
-    {
-        private int _id;
-        public int Id 
-        { get {return Id; }
-            set { Id = value; } 
-        }
-        public void MyFun(int x) { 
-        throw new NotImplementedExcption();
-        }
-    }
+    //internal class MyType : IMyType
+    //{
+    //    private int _id;
+    //    public int Id 
+    //    { get {return Id; }
+    //        set { Id = value; } 
+    //    }
+    //    public void MyFun(int x) { 
+    //    throw new NotImplementedExcption();
+    //    }
+    //}
+//    internal class ISeries
+//    {
+//        public int Current { get; set; }
+//        public void GetNext(){
+//            Current = Current + 2;
+//}
+//        public void Reset() { 
+//        throw new NotImplementedException();
+//        }
+
+//    }
+
+
 }

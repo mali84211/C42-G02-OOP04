@@ -2,6 +2,30 @@
 {
     internal class Program
     {
+        //public static void Print10NumbersFromSeries(SeriesByTow seriesByTow)
+        //{
+        //    if (seriesByTow is not null)
+        //    {
+        //        for (int i = 0; i < 10; i++)
+        //        {         
+        //            console.writeline($"{series.Current}");
+        //            series.GetNext();
+        //        }
+        //        series.Reset();
+        //    }
+        //}
+        //public static void Print10NumbersFromSeries(SeriesByTow seriesByThree)
+        //{
+        //    if (seriesByTow is not null)
+        //    {
+        //        for (int i = 0; i < 10; i++)
+        //        {         
+        //            console.writeline($"{series.Current}");
+        //            series.GetNext();
+        //        }
+        //        series.Reset();
+        //    }
+        //}
         static void Main(string[] args)
         {
             #region V1
@@ -18,7 +42,13 @@
             //myType1.Print();
             #endregion
 
-            #region
+            #region V2
+            //SeriesByTow seriesByTow =new SeriesByTow();
+            //Print10NumbersFromSeries(seriesByTow);
+
+            //SeriesByThree seriesByThree = new SeriesByThree();
+            //Print10NumbersFromSeries(seriesByThree);
+
             #endregion
 
             #region
