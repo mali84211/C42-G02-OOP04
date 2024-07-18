@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text;
 
 namespace C42_G02_OOP04
 {
@@ -131,16 +132,39 @@ namespace C42_G02_OOP04
 
             #endregion
 
-            #region
-            #endregion
+            #region V6
+            //shallowcopy
+            //StringBuilder[] names1 = new StringBuilder[1];
+            //names1[0].Append("ali");
 
-            #region
-            #endregion
+            //names1[0] = new StringBuilder("ali");
 
-            #region
-            #endregion
+            //StringBuilder[] names2 = new StringBuilder[1];
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
 
-            #region
+            //names2 = names1;
+            //Console.WriteLine("names2=names1");
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+            //names2[0].Append("amr");
+            //Console.WriteLine("names2[0].Append(\"amr\");");
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+
+            //Deepcopy
+            //names2 = (StringBuilder[])names1.Clone();
+            //Console.WriteLine("names2=(StringBuilder[])names1.Clone()");
+            //Console.WriteLine(names1.GetHashCode());
+            //Console.WriteLine(names2.GetHashCode());
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
+            //names2[0].Append("amr");
+            //Console.WriteLine("names2[0].Append(\"amr\");");
+            //Console.WriteLine(names1[0]);
+            //Console.WriteLine(names2[0]);
             #endregion
         }
     }
