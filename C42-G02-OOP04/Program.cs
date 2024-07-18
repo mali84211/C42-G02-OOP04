@@ -1,4 +1,6 @@
-﻿namespace C42_G02_OOP04
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace C42_G02_OOP04
 {
     internal class Program
     {
@@ -51,7 +53,20 @@
 
             #endregion
 
-            #region
+            #region V3
+            //Car car =new Car();
+            //car.Backward();
+            //car.Forward();
+            //Airplane airplane = new Airplane();
+            //airplane.Forward();
+            //airplane.Backward();
+            //airplane.Forward();
+
+            //IMovable movableplan = new Airplane();
+            //movableplan.Forward();
+
+            //IFlyable flyableplan = new Airplane();
+            //flyableplan.Forward();
             #endregion
 
             #region

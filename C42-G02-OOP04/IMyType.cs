@@ -39,5 +39,7 @@ namespace C42_G02_OOP04
 
 //    }
 
-
+    //internal class vehicle {
+    //public int Speed {  get; set; }
+    //}
 }
